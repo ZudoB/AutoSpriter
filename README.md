@@ -12,7 +12,7 @@ and all related fandiscs.
     python autospriter.py <base_dir> <file_prefix> <layer_number1> <layer_number2> [...] 
     
 Where `base_dir` is the directory containing all the sprite images and layer.txt files, 
-`file_prefix` is the prefix of the relevant sprite set file (e.g. A`_KOT_01L`) and the layer numbers are the three digit 
+`file_prefix` is the prefix of the relevant sprite set file (e.g. `A_KOT_01L`) and the layer numbers are the three digit 
 indexes of the sprite images.
 
 To make use of AutoSpriter, you must extract the sprites into their own folder (the `base_dir`).

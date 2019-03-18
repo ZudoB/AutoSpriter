@@ -1,5 +1,5 @@
 from PIL import Image
-import sys, os, subprocess, random
+import sys, os, subprocess, random, time
 
 """
 Reads a layers.txt file and returns a dict representing the contained information
@@ -35,7 +35,7 @@ def parse_layers(filename):
 Reverts the premultiplication on the layers
 """
 def unpremultiply(filename):
-    newfn = os.path.abspath("temp-" + str(random.randint(0, 1000)) + ".png")
+    newfn = os.path.abspath("temp-" + str(time.time()) + "_" + str(random.randint(0, 100)) + ".png")
     try:
         subprocess.call(["unpremultiply.exe", filename, newfn])
         return newfn

@@ -67,7 +67,7 @@ Outputs the usage information to the console
 """
 def print_usage():
     print("AutoSpriter for Pulltop VNs")
-    print("By Zudo (github.com/ZudoMC)")
+    print("By Zudo (github.com/Niquolas)")
     print("")
     print("Usage: autospriter.py <base_dir> <file_prefix> <layer_number1> <layer_number2> [...]")
 
